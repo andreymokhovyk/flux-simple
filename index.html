@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flux</title>
+	<link rel="stylesheet" href="css/bs.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+	<div id="counter" class="container well well-lg">
+		<div class="btn-group" >
+			<a href="#/" class="btn btn-primary">all</a>
+			<a href="#/active" class="btn btn-primary">active</a>
+			<a href="#/completed" class="btn btn-primary">completed</a>
+		</div>
+
+		<div id="tab"></div>
+
+
+	</div>
+
+	<section id="flux"></section>
+
+	<script src="js/setLocalStorage.js"></script>
+
+	<script src="js/helpers/Router.js"></script>
+	<script src="js/dispatcher/AppDispatcher.js"></script>
+	<script src="js/constants/AppConstants.js"></script>
+	<script src="js/actions/AppActions.js"></script>
+	<script src="js/stores/AppUsersStore.js"></script>
+	<script src="js/views/AppViews.js"></script>
+	<script src="js/utils/userAPI.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
